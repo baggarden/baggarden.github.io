@@ -1,0 +1,67 @@
+body {
+  color: #eee;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif
+}
+.tekst {
+  width: 50%;
+  margin-left: 1em
+}
+.ümber {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.kotikott {
+  display: flex;
+  align-items: center;
+  height: 80vh
+}
+.kott {
+  min-height: 200px;
+  height: 80vh;
+  max-height: 50vw;
+  max-width: 750px
+}
+.logo {
+  display: block;
+  width: 80vw;
+  max-width: 600px;
+  margin: 10px auto
+}
+.keskel {
+  text-align: center;
+  line-height: 0.75em;
+  margin-top: 0.75em
+}
+a {
+  text-decoration: none;
+  color: #0000da;
+}
+a:visited {
+  color: #aaaada;
+}
+a:hover {
+  color: #5555ef;
+  text-shadow: 2px 3px 2px #3333cd;
+}
+@media screen and (max-width: 400px) {
+  .kotikott {
+    height: auto
+  }
+  .kott {
+    width: 100vw;
+    height: auto;
+    max-height: none;
+    max-width: none;
+    min-height: none;
+    min-width: none
+  }
+  .ümber {
+    display: inline
+  }
+  .tekst {
+    width: 100%;
+    margin: 0;
+    text-align: center
+  }
+}
