@@ -14,12 +14,11 @@ body {
 .kotikott {
   display: flex;
   align-items: center;
-  height: 80vh
 }
 .kott {
   min-height: 200px;
   height: 80vh;
-  max-height: 50vw;
+  max-height: auto;
   max-width: 750px
 }
 .logo {
