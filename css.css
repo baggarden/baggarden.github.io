@@ -54,11 +54,11 @@ a:hover {
   }
   .kott {
     width: 100vw;
-    height: auto;
+    height: 107.73vw;
     max-height: 107.73vw;
-    max-width: none;
-    min-height: none;
-    min-width: none
+    max-width: 100vw;
+    min-height: 0;
+    min-width: 0
   }
   .ümber {
     display: inline
