@@ -18,8 +18,8 @@ body {
 .kott {
   min-height: 200px;
   height: 80vh;
-  max-height: 808px;
-  max-width: 750px
+  max-height: 25vw;
+  max-width: 50vw;
 }
 .logo {
   display: block;
