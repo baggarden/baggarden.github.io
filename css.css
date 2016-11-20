@@ -68,5 +68,8 @@ a:hover {
     margin: 0;
     text-align: center
   }
+  .keskel {
+    line-height: 1em
+  }
 }
 
