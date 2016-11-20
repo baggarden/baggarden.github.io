@@ -64,3 +64,9 @@ a:hover {
     text-align: center
   }
 }
+@media screen and (max-width: 750px) {
+  .kott {
+    max-width: 50vw;
+    max-height: auto
+  }
+}
