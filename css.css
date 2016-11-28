@@ -6,6 +6,9 @@ body {
   width: 50%;
   margin-left: 1em
 }
+.tilluke {
+  font-size: 0.8em
+}
 .ümber {
   display: flex;
   justify-content: center;
